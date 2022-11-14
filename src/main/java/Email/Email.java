@@ -23,6 +23,6 @@ public class Email {
     public void sendEmail() throws MessagingException {
         emailService.sendEmailWithAttachment("The program ended with an error or exception!","pryimak.sviat@gmail.com",
                 "Flower Shop, logs",
-                "D:\\Java\\JavaProgr\\Laboratory-Work_4-8\\Taxi-Park\\logs\\taxiLogs\\logs.log");
+                "C:\\Users\\Приймак Святослав\\IdeaProjects\\FlowerShop\\logs\\taxiLogs\\logs.log");
     }
 }
