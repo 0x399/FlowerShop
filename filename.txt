@@ -1,0 +1,6 @@
+Rose{name='Rose', stem_len=15.0, price=75.0, color=black, ArrivalDate=14.10.2022, Quantity=149}
+Chrisanthemum{name='Chrisanthemum', stem_len=15.0, price=55.0, color=white, ArrivalDate=16.10.2022, Quantity=249}
+Tulip{name='Tulip', stem_len=12.0, price=50.0, color=red, ArrivalDate=19.10.2022, Quantity=299}
+
+Total price = 
+180.0Thanks for shopping at our store!
