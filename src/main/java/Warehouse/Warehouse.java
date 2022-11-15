@@ -13,7 +13,6 @@ import java.util.Scanner;
 
 public class Warehouse {
     Scanner sc = new Scanner(System.in);
-    public int capacity = 2000;
     ArrayList<Flowers> flowersArr = new ArrayList<Flowers>();
     ArrayList<Decorations> decorArr = new ArrayList<Decorations>();
 

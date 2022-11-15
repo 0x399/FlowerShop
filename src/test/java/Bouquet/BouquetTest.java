@@ -8,6 +8,7 @@ import Flowers.Color.*;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
+import java.io.IOException;
 import java.text.ParseException;
 import java.util.ArrayList;
 
@@ -108,17 +109,16 @@ class BouquetTest {
         bq.FindShortestStem();
         assertEquals(9.6, bq.flowersArr.get(0).stem_len);
     }
-
-    @Test
+            @Test
     void findFreshest() throws ParseException {
         Bouquet bq = new Bouquet();
         Rose r1 = new Rose();
-        Rose r3 = new Rose();
+        Tulip r3 = new Tulip();
         Rose r2 = new Rose();
         bq.AddToBouquet(r1);
         bq.AddToBouquet(r2);
         bq.AddToBouquet(r3);
-        bq.FindShortestStem();
-        assertEquals("14.10.2022", bq.flowersArr.get(0).ArrivalDate);
+        bq.FindFreshest();
+        assertEquals("19.10.2022", bq.flowersArr.get(0).ArrivalDate);
     }
 }

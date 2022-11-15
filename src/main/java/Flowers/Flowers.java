@@ -52,7 +52,7 @@ public abstract class Flowers implements Comparable<Flowers>{
     }
 
     public void setPrice(double np){
-        System.out.println("Current price = " + this.getPrice());
+        //System.out.println("Current price = " + this.getPrice());
         this.price = np;
     }
 

@@ -5,6 +5,7 @@ import Flowers.Color;
 import Flowers.Flowers;
 import Flowers.Tulip;
 import Menu.Menu;
+import SQL.SQL;
 
 import java.text.ParseException;
 import java.util.Scanner;
@@ -15,6 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws ParseException {
         Menu menu = new Menu();
+        SQL.execute();
         menu.menu();
     }
 }
